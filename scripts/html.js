@@ -1,3 +1,6 @@
+import { Guests } from "./guests.js"
+import { SectionsAndServices } from "./services.js"
+
 export const CiderFalls = () => {
     return `
     <div class ="top">
@@ -12,29 +15,30 @@ export const CiderFalls = () => {
         <article class="allParks">
         <div class ="topParks">
             <section class="parks">
-                Park 1
+                ${SectionsAndServices(1)}
                 </section>
             <section class="parks">
-                Park 2
+                ${SectionsAndServices(2)}
                  </section>
                 <section class="parks">
-                Park 3
+                ${SectionsAndServices(3)}
                 </section>
             </div>
             <div class ="bottomParks">
                 <section class="parks">
-                Park 4
+                ${SectionsAndServices(4)}
                 </section>
                 <section class="parks">
-                Park 5
+                ${SectionsAndServices(5)}
                 </section>
                 <section class="parks">
-                Park 5
+                ${SectionsAndServices(6)}
                 </section>
             </div>
          </article>
          <div class ="people">
-         list of people
+         <h2>Guest List</h2>
+            ${Guests()}
          </div>
          </div>
     <div class ="footer">
