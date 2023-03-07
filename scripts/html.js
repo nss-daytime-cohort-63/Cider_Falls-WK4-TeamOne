@@ -12,15 +12,15 @@ export const CiderFalls = () => {
     
     </div>
     <div class ="services">
-    Services: <section id ="service--1">Rafting,</section>
-    <section id ="service--2">Canoeing,</section>
-    <section id ="service--3">Fishing,</section>
-    <section id ="service--4">Hiking,</section>
-    <section id ="service--5">Picnicking,</section>
-    <section id ="service--6">Rock Climbing,</section>
-    <section id ="service--7">Lodging,</section>
-    <section id ="service--8">Parking,</section>
-    <section id ="service--9">Information,</section>
+    Services: &nbsp <section id ="service--1">Rafting, &nbsp</section>
+    <section id ="service--2">Canoeing, &nbsp </section>
+    <section id ="service--3">Fishing, &nbsp</section>
+    <section id ="service--4">Hiking, &nbsp</section>
+    <section id ="service--5">Picnicking, &nbsp</section>
+    <section id ="service--6">Rock Climbing, &nbsp</section>
+    <section id ="service--7">Lodging, &nbsp</section>
+    <section id ="service--8">Parking, &nbsp</section>
+    <section id ="service--9">Information, &nbsp</section>
     <section id ="service--10">Zip Lines</section>
     
     </div>
