@@ -14,9 +14,9 @@ const database = {
         {id: 12, fullName: 'Smoke the Bear', sectionId: 4}
     ],
     sections: [
-        {id: 1, name: 'Chamfort River'},
+        {id: 1, name: 'Lodge'},
         {id: 2, name: 'Lost Wolf Hiking Trail'},
-        {id: 3, name: 'Lodge'},
+        {id: 3, name: 'Chamfort River'},
         {id: 4, name: 'Gander River'},
         {id: 5, name: 'Campgrounds'},
         {id: 6, name: 'Pine Bluffs Trails'}
@@ -34,16 +34,16 @@ const database = {
         {id: 10, name: 'Zip Lines'}
     ],
     sectionServices: [
-        {id: 1, sectionId: 1, serviceId: 1},
-        {id: 2, sectionId: 1, serviceId: 2},
-        {id: 3, sectionId: 1, serviceId: 3},
+        {id: 1, sectionId: 3, serviceId: 1},
+        {id: 2, sectionId: 3, serviceId: 2},
+        {id: 3, sectionId: 3, serviceId: 3},
         {id: 4, sectionId: 2, serviceId: 4},
         {id: 5, sectionId: 2, serviceId: 5},
         {id: 6, sectionId: 2, serviceId: 6},
-        {id: 7, sectionId: 3, serviceId: 7},
-        {id: 8, sectionId: 3, serviceId: 8},
-        {id: 9, sectionId: 3, serviceId: 9},
-        {id: 10, sectionId: 3, serviceId: 5},
+        {id: 7, sectionId: 1, serviceId: 7},
+        {id: 8, sectionId: 1, serviceId: 8},
+        {id: 9, sectionId: 1, serviceId: 9},
+        {id: 10, sectionId: 1, serviceId: 5},
         {id: 11, sectionId: 4, serviceId: 3},
         {id: 12, sectionId: 4, serviceId: 4},
         {id: 13, sectionId: 5, serviceId: 9},
