@@ -22,7 +22,7 @@ document.addEventListener(
                 }
             }
             let guestList = guestListArray.join('\n')
-            window.alert(guestList)
+            window.alert(`${guestList}`)
         }
     }
 )
