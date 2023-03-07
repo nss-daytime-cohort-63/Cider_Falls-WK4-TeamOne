@@ -22,6 +22,15 @@ img{
     width:100%;
 }
 
+.services{
+    background: rgb(204, 203, 143);
+    height:40px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    
+}
+
 .head{
     display: flex;
     justify-content: center;
@@ -29,7 +38,7 @@ img{
     margin-right:80px;
 }
 .main{
-    
+    padding-top: 50px;
     display: flex;
     height:700px;
 }
@@ -40,8 +49,13 @@ img{
     display: flex;
     align-items: center;
     flex-direction: column;
+    border-radius: 10px;
 }
 
+
+.people:hover{
+    background: rgb(217, 216, 153);
+}
 
 .allParks{
     
@@ -60,6 +74,11 @@ img{
     border-radius: 10px;
     padding-left: 20px;
 }
+
+.parks:hover{
+    background:#adb073;
+}
+
 
 .topParks{
     
@@ -80,3 +99,4 @@ img{
     justify-content: space-evenly;
     background: rgb(225, 224, 159);
 }
+
