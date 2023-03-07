@@ -1,4 +1,4 @@
-import { getServices, getSectionServices, getSections } from "./database";
+import { getServices, getSectionServices, getSections } from "./database.js";
 
 const services = getServices()
 const sectionServices = getSectionServices()

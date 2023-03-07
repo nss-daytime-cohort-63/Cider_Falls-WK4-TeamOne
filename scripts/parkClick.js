@@ -16,14 +16,14 @@ export const parkClick = () => {
                         selectedSection = section
                     }
                 }
-                let guestListArray = []
+                let guestCount = 0
                 for (let guest of guests) {
                     if (guest.sectionId === selectedSection.id) {
-                        guestListArray.push(guest.fullName)
+                        guestCount ++
                     }
                 }
-                let guestList = guestListArray.join('\n')
-                window.alert(`${guestList}`)
+                
+                window.alert(`${guestCount}`)
             }
         }
     )
