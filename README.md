@@ -88,7 +88,7 @@ Do all of this before you write a single line of code, or you could end up wasti
 
 When the title of any area is clicked, the current number of park guests in that area should be displayed.
 
-![](./images/you-are-here.gif)
+![](https://raw.githubusercontent.com/nashville-software-school/client-side-mastery/cohort-60/book-4-deshawns-dog-walking/chapters/images/you-are-here.gif)
 
 # Where Is This Service?
 
