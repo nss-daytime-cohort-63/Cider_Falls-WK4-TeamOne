@@ -31,7 +31,7 @@ export const SectionsAndServices = (idNumber) => {
     let html = ""
     for (const section of sections) {
         if (section.id === idNumber){
-            html += `<h2>${section.name}</h2>`
+            html += `<h2 id="sectionClick--${section.id}">${section.name}</h2>`
             const matchedSectionServices = matchingSectionServices(section, sectionServices)
             const matchedServices = matchingServices(matchedSectionServices, services)
             html += matchedServices
