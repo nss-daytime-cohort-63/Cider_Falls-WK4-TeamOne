@@ -1,0 +1,82 @@
+body{
+    background: rgb(255, 254, 182);
+    margin: 0px;
+}
+img{
+    height:80px;
+    width:100px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.top{
+    display: flex;
+
+}
+.header{
+    background: rgb(225, 224, 159);
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    height: 80px;
+    width:100%;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin-right:80px;
+}
+.main{
+    
+    display: flex;
+    height:700px;
+}
+
+.people{
+    background: rgb(242, 241, 171);
+    width:20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.allParks{
+    
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    
+
+    
+}
+
+.parks{
+    background:#cfd189;
+    width:26%;
+    height:300px;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+.topParks{
+    
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bottomParks{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer{
+    height:50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: rgb(225, 224, 159);
+}
