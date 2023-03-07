@@ -30,3 +30,68 @@ The names of all current park guests should be listed in the main content area o
 
 Given these requirements by the park administrator, use your wireframing tool to make a low fidelity layout of the project.
 
+# Cider Falls Data Design
+
+Now that you hav a visualization of how the project will be presented to the user in the browser, it is time to design the data needed for the project.
+
+1. What are the main resources? For example, one resource is **Guests**.
+1. What are the properties of each resource?
+1. What are the relationships between the resources?
+
+## Hints
+
+Here are some helpful hints to get you moving if you feel stuck.
+
+<details>
+    <summary>Main resources</summary>
+
+These are the main resources, but may not be all of the tables you define in your ERD. That will depend on what you determine their relationships to be.
+
+1. ParkAreas
+1. Services
+1. Guests
+
+</details>
+
+<details>
+    <summary>How to determine relationships</summary>
+
+Pick two resources in your ERD. For example, ParkAreas and Guests. Then ask yourself the following two questions.
+
+1. Can a park area have many guests?
+1. Can a guest currently be visting many park areas?
+
+If the answer to only one of those questions is yes, the you have a one-to-many relationship. You put the foreign key on the correct resource and draw the relationship.
+
+If the answer both one of those questions is yes, then you have a many-to-many relationship. This requires a joining table between the resources which will contain a foreign key to each main resource. Then draw both relationships.
+</details>
+
+# Algorithmic Thinking Reminder
+
+This project is more complex than either DeShawn's Dog Walking or Brewed Awakenings, and you are not provided with any initial, boilerplate code.
+
+It is crucial, therefore, that you work on designing the algorithm before you write **any** code.
+
+1. What are the main resources (i.e. tables)? Design your ERD first.
+1. What are the properties of each resource?
+1. What is the relationship between the resources? If it's many-to-many, what additional data must you design in your ERD?
+1. Which modules should you create?
+1. What is the responsibility of each module?
+1. What functions should be in which modules?
+1. What is the responsibility of each function?
+1. What should each function return?
+1. What is the spcific algorithm for each function? Does the function need parameters? Should it return something?
+
+Do all of this before you write a single line of code, or you could end up wasting hours of time writing code only to find that you need to throw it all away because you didn't design the algorithm first.
+
+# You Are Here
+
+When the title of any area is clicked, the current number of park guests in that area should be displayed.
+
+![](./images/you-are-here.gif)
+
+# Where Is This Service?
+
+The park administrator has a new feature request. Right above the park area grid, she would like all of the services that the park provides listed. When a park guest clicks on one of the services, a message should be displayed show which park areas support that service.
+
+![](./images/cider-falls-services.gif)
